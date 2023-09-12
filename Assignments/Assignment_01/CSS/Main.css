@@ -1,0 +1,24 @@
+body header h2 {
+    border-left: solid #000 2px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    font-size: 0;
+    
+}
+body header h1{
+    background-color: gray;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 0%;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-decoration: underline;
+    
+}
+body header nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    margin-left: 0;
+    text-align: left;
+}
