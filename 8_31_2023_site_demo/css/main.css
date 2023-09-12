@@ -1,0 +1,19 @@
+ul{
+    border: #902458 10px dashed;
+    margin-left: 100px;
+    width: 400px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 1000;
+    color: #575396;
+    rotate: 110deg;
+}
+li{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+ol{
+    width: 250px;
+    margin-left: 250px;
+    color:#902458;
+}
