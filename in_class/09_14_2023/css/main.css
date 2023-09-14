@@ -1,0 +1,17 @@
+header {/*this is called tag selector*/
+    border: #000000 solid 3px
+}
+
+/* nav ul li:nth-of-type(9) {
+    border: #000000 dotted 2px;
+} */
+header h1:first-child{ 
+    font-size: 1.2em;
+    color: blue;
+}
+nav > h1{
+    text-decoration: underline
+}
+nav ul li:nth-of-type(9):hover {
+    color: aqua;
+}
