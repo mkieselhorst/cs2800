@@ -4,7 +4,7 @@ section{
     border-left: #000000 3px double;
     padding: 11px;
 }
-section blockquote:hover:{
+section blockquote:hover{
     background-color: aqua;
     font-size: 20px;
 }
