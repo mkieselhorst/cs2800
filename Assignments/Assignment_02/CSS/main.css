@@ -1,0 +1,37 @@
+html body{
+    background-color: rgb(255, 247, 240);
+
+}
+body section{
+    width: 95%;
+    border: 3px #000 double;
+    text-align: center
+}
+header{
+    margin-bottom:30px;
+}
+header .spacer{
+    height: 3px;
+    background-color: #000000;
+}
+nav{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    padding-left: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-size: 1.65em;
+}
