@@ -1,19 +1,28 @@
-html body{
+/* body element */
+body{
     background-color: rgb(255, 247, 240);
-
+    
 }
-body section{
+
+/* section element */
+section{
     width: 95%;
     border: 3px #000 double;
     text-align: center
 }
+
+/* Header element */
 header{
-    margin-bottom:30px;
+    padding-bottom:30px;
 }
-header .spacer{
+
+/* spacer class */
+.spacer{
     height: 3px;
     background-color: #000000;
 }
+
+/* Nav element */
 nav{
     height: 50px;
     text-align: center;
@@ -28,10 +37,59 @@ nav ul{
 nav ul li{
     display: inline;
     padding-left: 15px;
+    
 }
 nav ul li a{
     text-decoration: none;
+    color: #920f15;
+
 }
 nav ul li a:hover{
     font-size: 1.65em;
+}
+
+/* Main element */
+
+main ul li a{
+    font-weight: bold;
+    color: #920f15;
+    font-size: 1.25em;
+    text-decoration: none;
+        list-style-type: none;
+}
+main p{
+    font-variant-caps: small-caps;
+}
+main h3{
+    font-size: 1.65em;
+    text-decoration: underline;
+    text-align:center;
+    
+}
+main h3:first-of-type img{
+    float: left
+
+}
+main h3:nth-of-type(2) img{
+    float: right;
+}
+main article .moveFromAboveParagraph{
+    margin-top: 50px;
+}
+
+/* Aside element */
+aside h3{
+    font-size: 22px;
+    font-style: italic;
+    color: #054D26;
+}
+
+aside div img{
+    padding-left: 35px;
+}
+
+/* footer */
+footer{
+    text-align: right;
+    margin-right:20px;
 }
