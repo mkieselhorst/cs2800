@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vertical Navigation</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0
+        }
+        nav{
+            margin:150px 0 0 150px
+        }
+        ul{
+        
+        list-style-type: none;
+        }
+        nav ul li a {
+            text-decoration: none;
+            background-color: #000;
+            color: white;
+            font-size: 50px;
+            font-family: cursive;
+
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            border: 7px rgb(238, 255, 1) solid;
+            border-radius: 6px;
+
+            height: 60px;
+            margin: 15px 0;
+            width: 300px;
+            
+        }
+    </style>
+     
 </head>
 <body>
-    
+    <nav>
+        <ul>
+        <li><a href="index.html">page 1</a></li>
+        <li><a href="page_01.html">page 2</a></li>
+        <li><a href="page_02.html">page 3</a></li>
+        <li><a href="javascript:void(0)">page 4</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
