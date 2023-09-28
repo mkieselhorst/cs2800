@@ -1,0 +1,58 @@
+html, body{
+    height: 100%;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mooli', sans-serif;
+    background-color: black;
+    font-size: 1.65em;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+header{
+    background-color: rgb(6, 88, 6);
+}
+nav{
+    max-width: 900px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 1.65em;
+    color: tan;
+    font-weight: 900;
+
+}
+.menu > li {
+    display: inline-block;
+    position: relative;
+}
+.menu a{
+    color: tan;
+    padding: 25px 20px;
+    text-decoration: none;
+    display: block;
+}
+.menu a:hover {
+    background-color: rgb(6, 88, 6) ;
+    color: orange;
+}
+.subMenu {
+    position: absolute;
+    left:100%;
+    background-color: rgb(6, 88, 6);
+    width: 140px;
+    display: none;
+}
+li:hover .subMenu{
+    display: block;
+}
