@@ -20,7 +20,7 @@ header{
     background-color: rgb(6, 88, 6);
 }
 nav{
-    max-width: 900px;
+    max-width: fit-content;
     margin: 0 auto;
     display:flex;
     justify-content: space-between;
@@ -36,21 +36,29 @@ nav{
     display: inline-block;
     position: relative;
 }
+.menu > span {
+    color: tan;
+    font-weight: 900;
+}    
 .menu a{
     color: tan;
     padding: 25px 20px;
     text-decoration: none;
     display: block;
+    border: 1px rgb(6, 88, 6) solid;
+    border-radius: 10px;
 }
 .menu a:hover {
     background-color: rgb(6, 88, 6) ;
     color: orange;
+    border: 1px black solid;
+    border-radius: 10px;
 }
 .subMenu {
     position: absolute;
-    left:100%;
+    /* left:100%; */
     background-color: rgb(6, 88, 6);
-    width: 140px;
+    border-radius: 10px;
     display: none;
 }
 li:hover .subMenu{
