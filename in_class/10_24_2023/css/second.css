@@ -7,17 +7,32 @@ body{
     font-family: sans-serif;
     max-height: 100vh;
     font-size: 2rem;
-
+    display: grid;
+    grid-template-columns: repeat(9, auto );
+    grid-template-rows: 75px auto 75px;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn mn mn sb" 
+    "ft ft ft ft ft ft ft ft ft";
+    gap: 1rem;
+}
+.header{
+    grid-area: hd;
 }
 .container{
-    width: 960px;
-    margin: 0 auto;
+    grid-area: mn;
     display:grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: minmax(350px, auto);
     align-content: center;
     gap: 10px;
 
+}
+.sidebar{
+    grid-area: sb;
+}
+.footer{
+    grid-area: ft;
 }
 .box{
     background-color: #000;
@@ -40,4 +55,7 @@ body{
     grid-row-end: 4; */
     grid-column: 1/5;
     grid-row: 3/5;
+}
+.customize{
+    background-color: bisque;
 }
