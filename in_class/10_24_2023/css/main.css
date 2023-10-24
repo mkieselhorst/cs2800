@@ -14,9 +14,16 @@ body{
     margin: 0 auto;
     display:grid;
     grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: minmax(150, auto);
+    grid-template-rows: minmax(350px, auto);
+    align-content: center;
+    gap: 10px;
+
 }
 .box{
     background-color: #000;
     color: #FFF;
+}
+.box:first-child{
+    background-color: #390ae6;
+    
 }
