@@ -7,19 +7,35 @@ section{
     width:95%;
     margin:0 auto;
     padding:11px;
+    display: grid;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn mn mn mn mn sb sb"
+    "ar ar ar ar ar ar ar ar ar ar ar ar"
+    "ft ft ft ft ft ft ft ft ft ft ft ft"
+    ;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.5rem;
 }
 header{
     background-color: blue;
+    grid-area: hd;
 }
 main{
     background-color: rgb(64, 64, 72);
+    grid-area: mn;
 }
 aside{
     background-color: rgb(46, 86, 102);
+    grid-area: sb;
 }
 article{
     border: 1px solid #000;
     background-color: green;
+    grid-area: ar;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
 }
 article>div{
     height: 150px;
@@ -27,9 +43,11 @@ article>div{
     text-align: center;
     padding: 15px;
     font-size: 25px;
+    
 }
 footer{
    background-color: rgb(22, 210, 75);
+   grid-area: ft;
 }
 .txt{
     color:white;
