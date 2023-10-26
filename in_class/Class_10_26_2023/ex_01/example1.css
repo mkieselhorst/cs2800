@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    width:95%;
+    margin:0 auto;
+    padding:11px;
+}
+header{
+    background-color: blue;
+}
+main{
+    background-color: rgb(64, 64, 72);
+}
+aside{
+    background-color: rgb(46, 86, 102);
+}
+article{
+    border: 1px solid #000;
+    background-color: green;
+}
+article>div{
+    height: 150px;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+footer{
+   background-color: rgb(22, 210, 75);
+}
+.txt{
+    color:white;
+}
