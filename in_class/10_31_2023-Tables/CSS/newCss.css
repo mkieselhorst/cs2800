@@ -1,0 +1,35 @@
+table{
+    border: 1px solid #000;
+
+    width: 900px;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td{
+    /* text-align: center; */
+}
+th{
+    /* border: 3px solid #000; */
+    border-bottom: 1px solid #000;
+
+}
+td{
+    /* border: 1px solid #000; */
+    border-bottom: 1px solid #000;
+    width: 150px;
+
+}
+thead th{
+    background-color: #cccccc;
+}
+tbody tr th img{
+    vertical-align: middle;
+    padding-right: 11px;
+}
+tbody tr th{
+    width: 500px;
+}
+
+tbody tr:hover{
+    background-color: #cccccc;
+}

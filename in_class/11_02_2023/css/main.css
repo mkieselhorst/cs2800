@@ -1,0 +1,23 @@
+form{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aquamarine;
+}
+fieldset{
+    flex:1 1 300px;
+}
+div.formRow{
+    display: flex;
+    flex-flow: row wrap;
+}
+.formRow > *{
+    flex: 1 1 10px;
+}
+[type="radio"]{
+    display: block;
+    float: l;
+}
+optionGroup{
+    flex: 0 0 50px;
+    flex-flow: row wrap;
+}
