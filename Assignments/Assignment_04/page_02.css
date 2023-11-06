@@ -5,6 +5,7 @@
 }
 section{
     width:95%;
+
     background-color: #111;
     color: #fff;
     font-family: 'Lato', sans-serif;
@@ -13,11 +14,13 @@ section{
     display:grid;
     grid-template-areas: 
     "hd hd hd hd hd"
-    "fg fg fg fg fg"
-    "fg fg fg fg fg"
-    "ft ft ft ft ft"
-    ;
+    ". . . . ."
+    "ln ln ln ln ln"
+    "cn cn cn cn cn"
+    "hr hr hr hr hr"
+    "ft ft ft ft ft";
     grid-template-columns: repeat(5, 1fr);
+
 }
 header{
     text-align: center;
@@ -33,31 +36,48 @@ a {
     font-family: 'Lato', sans-serif;
     font-family: 'Playpen Sans', cursive;
     width: 100%;
+    display:grid;
+    grid-area: cn;
+    grid-template-areas: 
+    "fg fg fg fg fg"
+    "fg fg fg fg fg";
+    gap: 1em;
+    grid-template-columns: repeat(5, 1fr);
+    padding-bottom: 20px;
     
  }
 .pic {
     margin: 0;
-
-    display: grid;
+    display:grid;
+    grid-template-areas: 
+    "im tx . . . "
+    ". tx . . ."
+    ". tx . . ."
+    "cp cp cp . .";
+    gap: 1em;
 }
+
 .pic img {
     border: 1px solid #333;
     aspect-ratio: auto;
     width: 100%;
     display: block;
+    grid-area: im;
 }
 .pic p {
     line-height: 1.2;
     margin-block: 0;
-   
+   grid-area: tx;
 }
 .caption {
     font-size: 1.2rem;
     margin: 0;
+    grid-area: cp;
 }
 .link{
     padding:20px 0;
     font-size:1.1em;
+    grid-area: ln;
 }
 em {
     font-size: 1em;
@@ -65,7 +85,13 @@ em {
     display: inline-block;
     margin-left: 10px;
 }
+hr{
+    grid-area: hr;
+    color: #fff;
+}
 footer{
     grid-area: ft;
+
+    padding-top: 10px;
 }
 
