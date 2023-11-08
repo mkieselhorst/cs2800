@@ -7,19 +7,40 @@
     <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
-    
+   <h1 id="line"></h1>
+   <h1 id="line2"></h1> 
 
+   <ul id="uList">
+    
+   </ul>
+
+
+
+   <script>
+    let data = ["item 1 ", "item 2 ", "item 3 "];
+    let myList = document.getElementById("uList");
+    for(ind = 0;ind < data.length ;ind++){
+        var i = document.createElement('li')
+        i.innerText = data[ind]
+        myList.appendChild(i)
+    };
+   </script>
     
     <script>
-        alert("call devsd");
-        prompt("Hello from JS Class");
+        // alert("call devsd");
+        // prompt("Hello from JS Class");
         var name;//Global
             name = "Max K";
-        let age = 27515;//local/block-level
-        document.write("Your Name is: " + name + "<br />" + "Your age is: " + age + "<br/>");
-        let stat = 'Let\'s go to paris';
-        var text = "He said \"I am not going to class\"";
-        document.write(stat)
+        // let age = 27515;//local/block-level
+        // document.write("Your Name is: " + name + "<br />" + "Your age is: " + age + "<br/>");
+        // let stat = 'Let\'s go to paris';
+        // var text = "He said \"I am not going to class\"";
+        // document.write(stat);
+        let quiz = 100;
+        document.getElementById("line").innerHTML = name
+        document.getElementById("line2").innerText = quiz;//or
+        document.getElementById("line2").textContent = quiz;
+
     </script>
 </body>
 </html>
