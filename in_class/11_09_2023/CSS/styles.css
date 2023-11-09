@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+section {
+   width: 960px;
+   background: white;
+   margin: 30px auto;
+   font-family: Verdana, Geneva, sans-serif;
+   position: relative;   
+}
+header {
+   background: #330570;
+   width: 100%;
+   color: #FFFFFF;
+   font-size: 30px;
+   text-align: center;
+   line-height: 1.5em;
+}
+
+article {
+   width: 960px;
+   height: 250px;
+   text-align: left;
+   background: #FFCF40;
+}
+
+article h2 {
+   font-weight: bold;
+   font-size: 24px;
+   padding: 10px;
+}
+
+/* form */
+form {
+   margin: 0 auto;
+}
+
+input {
+   float: left;
+   clear: left;
+   margin: 10px;
+}
+
+label {
+   float: left;
+   font-size: 1.4em;
+}
+
+aside {
+   position: absolute;
+   top: 120px;
+   left: 400px;
+   outline: 1px solid red;
+}
+
+aside span {
+   position: absolute;
+   font-size: 1.4em;
+}
+
+aside span#totalLab {
+   top: 0px;
+   left: 0px;
+   width: 220px;   
+}
+
+aside span#foodTotal {
+   top: 0px;
+   left: 280px;
+   width: 100px;
+   text-align: right;
+}   
+
+aside span#taxLab {
+   top: 40px;
+   left: 0px;
+   width: 220px;   
+}
+
+aside span#foodTax {
+   top: 40px;
+   left: 280px;
+   width: 100px;
+   text-align: right;
+}
+
+aside span#billLab {
+   top: 80px;
+   left: 0px;
+   width: 220px;   
+}
+
+aside span#totalBill {
+   top: 80px;
+   left: 280px;
+   width: 100px;
+   text-align: right;
+}
