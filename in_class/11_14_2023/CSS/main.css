@@ -1,0 +1,28 @@
+
+section{
+    border: 1px solid;
+    width: 95%;
+    margin: 0 auto;
+    padding: 9px;
+}
+header{
+    height: 200px;
+}
+.leftBox{
+    width:250px;
+    float: left;
+}
+.middle{
+    width: 75px;
+    float: left;
+    margin: 0 25px;
+}
+.rightBox{
+    width: 250px;
+    float: left;
+}
+footer{
+    clear: both;
+    height: 75px;
+    
+}
