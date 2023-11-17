@@ -1,9 +1,30 @@
-input{
+input:nth-of-type(1){
+    margin-left: 200px;
 
+
+}
+input{
+    width: 100px;
+    height: 50px;
+    padding: 11px;
+    font-size: 1.25em;
 }
 button{
-
+    width: 100px;
+    height: 50px;
+    margin-left: 275px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 p{
+    width: 80px;
+    height: 50px;
+    margin-left: 285px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 2px solid;
 
 }
+
+
