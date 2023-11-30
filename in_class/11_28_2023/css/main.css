@@ -39,3 +39,19 @@ dd {
 dd, dt {
     transition: background-color 0.3s, border-color 0.3s;
 }
+header{
+    
+    position: relative;
+    height:250px;
+    overflow:hidden
+}
+#image-contaier{
+    
+    position: absolute;
+    width: 200%;
+
+}
+#image-container img{
+    width: 50%;
+    float: left;
+}
