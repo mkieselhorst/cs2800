@@ -1,7 +1,13 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
 }
 header{
     background-color: aquamarine;
@@ -11,11 +17,16 @@ header{
     border: 1px solid #000;
     border-radius: 10px;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    
+main{
+    display:flex;
+    flex: 1;
+    background-color: bisque;
+}
+article{
+    display:flex;
+    flex: 1;
+    background-color: rgb(63, 184, 111);
+    width: 60%;
 }
 form{
     max-width: 400px;
@@ -31,3 +42,8 @@ button, input{
     margin: 10px;
     border-radius: 4px;
 }
+[type = "checkbox"], .ck{
+    display: inline-block;
+}
+
+
