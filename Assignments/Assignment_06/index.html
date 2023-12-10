@@ -5,38 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/main.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <Main>
         <header>
             <h1>Computer Science and Engineering Club</h1>
         </header>
-        <article>
-
-        </article>
-        <aside>
-            <article>
-                <h2>Club Registration</h2>
-                <p>Ready to embark on an exciting journey with the Computer Science and Engineering Club at Wright State University? We invite you to take the first step by completing our straightforward registration form. By joining our community, you'll gain exclusive access to a myriad of opportunities, from hands-on workshops to collaborative projects and networking events. Whether you're a seasoned coder or just starting to explore the world of technology, our club welcomes all skill levels. Register now to become a part of a vibrant community where innovation meets camaraderie, and where your passion for computer science and engineering finds its home. We look forward to welcoming you into our ever-growing network of like-minded individuals!</p>
-                <form action="" id="myForm">
-                    <label for="nameBox">Name:</label>
-                    <input type="text" name="Name" id="nameBox" placeholder="Name">
-                    <label for="phoneBox">Phone:</label>
-                    <input type="text" name="Phone" id="phoneBox" placeholder="(###)-###-####">
-                    <label for="emailBox">Email:</label>
-                    <input type="email" name="email" id="emailBox" placeholder="Email@org.domain">
-                    <label for="interestBox">Area of Interest:</label>
-                    <input type="text" name="AOI" id="interestBox" placeholder="Area of Interest">
-                    
-                    <input type="submit" name="submitButton" id="submitButton" value="Register">
-                </form>
+        <div class="container">
+            <article class="main">
+                <div class="imgContainer" id="imgContainer">
+                    <img src="images/img1.jpg" alt="img1" id="img">
+                    <img src="images/img2.jpg" alt="img2" id="img">
+                    <img src="images/img3.jpg" alt="img3" id="img">
+                    <img src="images/img4.jpg" alt="img4" id="img">
+                    <img src="images/img5.jpg" alt="img5" id="img">
+                </div>
+                <p class="dir">click on an image to change it</p>
+                <p>
+                    Welcome to the online hub of the Computer Science and Engineering Club at Wright State University! We are thrilled to present a digital space that mirrors the dynamic and collaborative spirit of our club. As a community of tech enthusiasts, aspiring engineers, and coding aficionados, we strive to create an inclusive environment where innovation thrives. Navigate through our site to discover the latest in technological advancements, upcoming events, and opportunities to connect with fellow students who share your passion for the ever-evolving world of computer science and engineering.
+                </p>
+                <p> 
+                    At the heart of our club is a commitment to providing a platform for personal and professional growth. Engage in hands-on projects, participate in coding competitions, and attend workshops hosted by industry experts. Whether you're a seasoned programmer or just dipping your toes into the tech landscape, the Computer Science and Engineering Club at Wright State University is here to inspire, educate, and connect. Join us on this virtual journey, where your curiosity is ignited, and your potential is limitless. Welcome to a community that celebrates the future of technology and the boundless possibilities it holds.
+                </p>
             </article>
-        </aside>
+            <aside class="side">
+                <article >
+                    <h2>Club Registration</h2>
+                    <p>Ready to embark on an exciting journey with the Computer Science and Engineering Club at Wright State University? We invite you to take the first step by completing our straightforward registration form. By joining our community, you'll gain exclusive access to a myriad of opportunities, from hands-on workshops to collaborative projects and networking events. Whether you're a seasoned coder or just starting to explore the world of technology, our club welcomes all skill levels. Register now to become a part of a vibrant community where innovation meets camaraderie, and where your passion for computer science and engineering finds its home. We look forward to welcoming you into our ever-growing network of like-minded individuals!</p>
+                    <form action="" id="myForm">
+                        <label for="nameBox">Name:</label>
+                        <input type="text" name="Name" id="nameBox" placeholder="Name" required>
+                        <label for="phoneBox">Phone:</label>
+                        <input type="text" name="Phone" id="phoneBox" placeholder="(###)-###-####"required>
+                        <label for="emailBox">Email:</label>
+                        <input type="email" name="email" id="emailBox" placeholder="Email@org.domain"required>
+                        <label for="interestBox">Area of Interest:</label>
+                        <input type="text" name="AOI" id="interestBox" placeholder="Area of Interest"required>
+                        
+                        <input type="submit" name="submitButton" id="submitButton" value="Register"required>
+                    </form>
+                </article>
+            </aside>
+        </div>
         <footer>
-            &copy; Maxwell Kieselhorst. All rights reserved
+            <p>&copy; <span id="year"></span> Maxwell Kieslehorst. All Rights Reserved.</p>
         </footer>
     </Main>
-    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
     <script src="Js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* green color hex = #337735 */
+/* white background = #f2f2f2 */
+/* white foreground = #ffffff */
+/* border color = #d8d8d8 */
+body{
+    min-height: 100%;
+}
+body main {
+    text-align: left;
+    background-color: #f2f2f2;
+    min-height: 100%;
+}
+body main header{
+    background-color: #337735 ;
+    text-align: center;
+    height: 75px;
+}
+header h1{
+    padding-top: 15px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 2000;
+}
+.container{
+    display:flex;
+    align-items:stretch;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 15px;
+    gap: 15px;
+    height: 100%;
+}
+.container > *{
+    padding: 10px;
+    flex: 1 100%;
+}
+body main .main{
+    order: 1;
+    background-color: #ffffff;
+    border: 2px solid #d8d8d8;
+    text-align: left;
+    flex: 2;
+    
+}
+.imgContainer{
+    height: 400px;
+    overflow: hidden;
+}
+.imgContainer img{
+    width: 100%;
+    height: 400px;
+}
+.main p{
+    width: 100%;
+    margin-top: 15px;
+    font-family: 'Jost', sans-serif;
+    font-size: larger;
+}
+.dir{
+    background-color: black;
+    color: #ffffff;
+    text-align:center;
+    width: 100%;
+}
+body main .side{
+    order:2;
+    background-color: #ffffff;
+    border: 2px solid #d8d8d8;
+    flex: 1 ;
+}
+.side label{
+    font-family: 'Ubuntu', sans-serif;
+}
+.side h2{
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 2000;
+}
+.side p{
+    padding-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-size: larger;
+}
+.side form{
+    width: 100%;
+}
+#myForm label{
+    display: block;
+}
+#nameBox, #phoneBox, #emailBox, #interestBox{
+    margin-bottom:10px ;
+    height: 30px;
+    width: 100%;
+}
+#submitButton{
+    width: 100%;
+    height: 30px;
+}
+body main footer{
+    background-color: #337735;
+    height: 60px;
+    text-align:center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+footer p{
+    padding-top: 20px;
+    color: #ffffff;
+}
+
